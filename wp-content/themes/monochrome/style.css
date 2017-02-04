@@ -1,0 +1,650 @@
+/*
+Theme Name: MonochromeLagosTheme.
+Theme URI: afope.com
+Description: A theme built for monochrome lagos.
+Author: Afopefoluwa
+Author URI: wwww.monochromelagos.com
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Afopefoluwa
+License URI: http://monochromelagos.com
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+@font-face {
+    font-family: futurapt;
+    src: url('../fonts/futurapt/futurapt/futuraptlight.otf');
+}
+
+
+
+  body
+{
+font-family : futurapt;
+font-size: 56px;
+}
+
+.banner {
+  background-image: url('../img/bg1.jpg'); // had to go back one directory first to get to /img
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /*width : auto;
+  max-width: 100%;*/
+  height: 500px;
+}
+
+.banner .text-wrap {
+
+  text-align: center;
+
+
+}
+
+.banner .text-wrap h1 {
+  padding-top: 100px;
+  font-size: 76px;
+  line-height: 46px;
+   font-weight: bold;
+   color: black;
+ }
+
+
+ .banner .text-wrap p {
+   padding-top: 30px;
+   font-size: 60px;
+   line-height: 20px;
+    color: black;
+  }
+
+ ul {
+   list-style-type: none;
+   padding : 0;
+   width: 100%;
+   text-align: right;
+
+
+}
+
+li {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 10px;
+
+
+}
+
+
+
+a{
+   color: black;
+}
+
+
+
+blockquote {
+    font-family: futurapt;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+    font-size: 42px;
+    line-height: 50px;
+
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+   /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+
+
+.boxes{
+  text-align: center;
+}
+
+
+
+
+
+img {
+  height: 400px;
+  width: 450px;
+  object-fit: cover;
+
+}
+
+#banner2
+{
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/banner.jpg');
+  background-attachment: fixed;
+
+  text-align: center;
+  background-color: white;
+
+}
+
+
+#banner2 .thumb{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+
+}
+
+
+
+#banner2 h1
+{
+ color: white;
+ font-size: 90px;
+ font-family: futurapt;
+ font-weight: bold;
+
+
+}
+
+
+#banner2 img{
+  width: 450px;
+  height: 450px;
+
+}
+
+.footer footer {
+  height : 400px;
+  background-color: #C0C0C0;
+
+}
+
+footer h1
+{
+  color:white;
+  font-size: 25px;
+}
+
+footer p {
+  font-size: 20px;
+  font-family: futurapt;
+  color: white;
+}
+
+
+
+form {
+  font-size: 20px;
+  font-family: futurapt;
+  color: white;
+}
+
+footer #first {
+
+  padding-left: 50px;
+}
+
+form #submit
+{
+  color:black;
+}
+
+footer #subscribe {
+  padding-left: 100px;
+}
+
+footer #follow {
+  padding-left: 100px;
+  color: white;
+}
+
+
+.row #title2
+{
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding-top: 10px;
+  color: black;
+
+}
+
+.row h1{
+  font-weight: bold;
+}
+
+#blogbanner{
+  background-image: url('../img/tsk5.jpg'); // had to go back one directory first to get to /img
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width : auto;
+  max-width: 100%;
+  height: 700px;
+  background-attachment: fixed;
+
+}
+
+#shopbanner{
+  background-image: url('../img/tsk10.jpg'); // had to go back one directory first to get to /img
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width : auto;
+  max-width: 100%;
+  height: 700px;
+  background-attachment: fixed;
+
+}
+
+#archivebanner{
+  background-image: url('../img/tsk15.jpg'); // had to go back one directory first to get to /img
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width : auto;
+  max-width: 100%;
+  height: 700px;
+  background-attachment: fixed;
+
+}
+
+#aboutbanner{
+  background-image: url('../img/tsk1.jpg'); // had to go back one directory first to get to /img
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width : auto;
+  max-width: 100%;
+  height: 700px;
+  background-attachment: fixed;
+
+}
+
+#photobookbanner{
+  background-image: url('../img/fourr.jpg'); // had to go back one directory first to get to /img
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width : auto;
+  max-width: 100%;
+  height: 700px;
+  background-attachment: fixed;
+
+}
+
+.main .thumb{
+  height: 400px;
+  width: 670px;
+  background-color: #333;
+  text-align: center;
+
+}
+
+
+.main p {
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  text-align: left;
+  padding-left: 80px;
+
+
+}
+
+.main #post-title
+{
+  font-size: 30px;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.main #prepost
+{
+  font-size:26px;
+  margin-top: 0;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.main .author
+{
+  font-size: 26px;
+  text-align: center;
+}
+
+aside {
+  margin-right: 90px;
+}
+
+aside h3{
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  padding-left: 60px;
+}
+
+aside .thumb
+{
+  height: 200px;
+  width: 200px;
+  background-color: #333;
+}
+
+aside h4
+{
+  text-align: center;
+}
+
+.book{
+  padding-top:30px;
+}
+
+.book h3
+{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#book1{
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+
+#book2{
+  padding-bottom: 30px;
+}
+
+
+
+#book1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+
+}
+
+
+#book2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:800px;
+
+
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.button{
+  margin: -20px -50px;
+    position:relative;
+    top:50%;
+    left:50%;
+}
+
+#about{
+  font-size: 25px;
+  line-height: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.shop img
+{
+
+  height : 500px;
+}
+
+.shop span{
+  font-size: 15px;
+}
+
+.shop aside{
+  font-size: 25px;
+}
+
+
+
+#prev{
+    background:  url('./image/prev.png') no-repeat center;
+    padding-left: 50px;
+    opacity: 0.6;
+
+}
+
+
+
+header{
+  position: relative;
+  width: 100%;
+}
+
+a .icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  display: inline-block;
+}
+
+a .icon .bar{
+    display: block;
+    margin-bottom: 6px;
+    height: 3px;
+    width: 35px;
+    background-color: black;
+}
+
+.carousel .item{
+  margin-right: 15px;
+  width: 600px;
+}
+
+.flickity-prev-next-button{
+  border-radius: 0;
+
+}
+
+/*@media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){*/
+
+html,
+body{
+  width:100%;
+  overflow-x:hidden;
+}
+
+#logo{
+  font-size: 32px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+/* tablet */
+@media screen and (max-width: 800px){
+  #banner2{
+    background-attachment: scroll;
+    background-size: cover;
+    height: 350px;
+  }
+
+  .footer footer{
+    height: auto;
+    padding-top: 30px;
+  }
+
+  footer #subscribe,
+  footer #follow,
+  footer #first{
+    padding-left: 15px;
+    text-align: center;
+  }
+
+  header{
+    min-height: 70px;
+    padding: 10px;
+  }
+
+  header #logo{
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
+
+
+
+/* mobile */
+@media screen and (max-width: 529px){
+
+}
+
+.menui {
+
+    transition: 0.6s ease;
+    transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
+
+}
+
+
+.mobilenav {
+    font-family: inherit;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fafafa;
+    opacity: 0.9
+}
+
+.mobilenav li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px
+}
+
+.mobilenav li a {
+    font-size: 150%;
+    color: #222;
+    text-decoration: none;
+    font-weight: 300;
+    width: 100%
+}
+
+.mobilenav li:first-child {
+    margin-top: 60px
+}
+
+.top-animate {
+    background: #222 !important;
+    top: 13px !important;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.mid-animate {
+    opacity: 0
+}
+
+.bottom-animate {
+    background: #222 !important;
+    top: 13px !important;
+    -webkit-transform: rotate(-225deg);
+    transform: rotate(-225deg)
+}
+
+.bar-top {
+    top: 5px;
+    width: 25px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #222
+}
+
+.bar-middle {
+    top: 13px;
+    width: 25px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #222
+}
+
+.bar-bottom {
+    top: 21px;
+    width: 25px;
+    height: 2px;
+    border-radius: 10px;
+    background-color: #222
+}

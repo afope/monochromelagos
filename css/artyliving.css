@@ -1,0 +1,322 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,600,700,400italic);
+
+body{
+  font-family: Raleway;
+
+}
+
+.banner{
+  height: 300px;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+a:hover,
+.a:hover {
+   text-decoration: none !important;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.no-pad-right{
+  padding-right: 0;
+}
+
+.no-pad-left{
+  padding-left: 0;
+}
+
+.u-l{
+  text-decoration: underline;
+}
+
+.m-b-lg{
+  margin-bottom: 60px;
+}
+
+h1, h2, h3, h4{
+  /*font-family: 'Playfair Display';*/
+}
+
+#top-menu{
+  background-color: black;
+  font-family: 'Playfair Display';
+}
+
+#top-menu a{
+  color: white;
+}
+
+#top-menu ul{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#top-menu li{
+  display: inline-block;
+  list-style: none;
+  padding: 15px;
+}
+
+#top-menu li:first-child{
+  padding-left: 0px;
+}
+
+.search-box{
+  outline: none;
+  margin-top: 11px;
+  padding: 3px 7px;
+  border-radius: 2px;
+  border: none;
+}
+
+.subhead{
+  font-family: 'Playfair Display';
+  font-size: 18px;
+  line-height: 1.4;
+  padding: 45px;
+}
+
+.subhead p{
+  margin-top: 15px;
+}
+
+.nav{
+  font-size: 21px;
+  font-family: 'Playfair Display';
+  margin-bottom: 20px;
+}
+
+.nav a{
+  color: black;
+}
+
+.nav ul{
+  padding-left: 0;
+  padding: 3px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.nav li{
+  display: inline-block;
+  list-style: none;
+  padding: 15px 20px;
+}
+
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+
+ul.dropdown-menu{
+  padding: 0;
+  border-radius: 0;
+  text-align: left;
+}
+
+ul.dropdown-menu li{
+  font-size: 18px;
+  padding: 0px;
+  display: block;
+}
+
+ul.dropdown-menu li a{
+  padding: 15px;
+}
+
+ul.dropdown-menu li:hover a{
+  background-color: #077AB9;
+  color: white;
+}
+
+ul.dropdown-menu li a{
+  /*color: white;*/
+}
+
+
+#articles #latest-posts{
+  /*height: 300px;*/
+  /*border: 1px solid black;*/
+}
+
+.slider-main-post{
+  height: 375px;
+  border: 1px solid;
+  padding: 0 25px;
+}
+
+ul.slider-posts{
+  padding-left: 0;
+}
+
+ul.slider-posts li{
+  position: relative;
+  border: 1px solid;
+  height: 75px;
+  max-width: 100%;
+  border-bottom: none;
+}
+
+ul.slider-posts li:last-child{
+  border-bottom: 1px solid;
+}
+
+ul.slider-posts li h4{
+  margin-left: 75px;
+}
+
+ul.slider-posts li .thumb{
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  height: 60px;
+  width: 60px;
+  background-color: #333;
+}
+
+
+
+.row.titles h3{
+  text-decoration: underline;
+}
+
+ul.section-posts li .thumb{
+  position: absolute;
+  top: 7px;
+  left: 7px;
+  height: 60px;
+  width: 60px;
+  background-color: #333;
+}
+
+
+.posts{
+  padding-left: 0;
+}
+
+.box h3{
+  border-bottom: 3px solid #077AB9;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.post{
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.boxes{
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+aside{
+  height: auto;
+  border: 1px solid;
+}
+
+aside .alt{
+  height: 400px;
+  border-bottom: 1px solid;
+  position: relative;
+  padding: 0 15px;
+  /*background-color: black*/
+}
+
+aside .alt:last-child{
+  border-bottom: none;
+}
+
+footer{
+  height: 500px;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer .row
+{
+  background-color: black;
+  padding: 100px 0;
+  margin-top: 45px;
+}
+
+.post-items{
+  position: relative;
+  padding-left: 275px;
+  padding-top: 15px;
+  margin-bottom: 75px;
+}
+
+.post-items .thumb{
+  height: 250px;
+  width:250px;
+  background-color: #333;
+  position: absolute;
+  left:0;
+  top:0;
+
+}
+
+.post-items .date{
+  margin-right: 15px;
+  font-style: italic;
+
+}
+
+.post-items p{
+  margin-top: 30px;
+}
+
+.content-items{
+  position: relative;
+  padding-left: 0;
+  padding-top: 5px;
+  margin-bottom: 75px;
+}
+
+.content-items #every-post{
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 400px;
+  padding-right: 50px;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+
+.content-items .post-image{
+  height:400px;
+  width :800px;
+  background-color: #333;
+  position: absolute;
+  left:0;
+  top:0;
+}
+
+.content-items p{
+  margin-top: 30px;
+  margin-bottom : 30px;
+  margin-right: 30px;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: 'Montserrat';
+}
+
+.content-items .date{
+  margin-right: 15px;
+  font-style: italic;
+
+}
